@@ -1,0 +1,98 @@
+# Voting App
+
+## Overview
+This is a "Voting App" built using "React Native" for the frontend and "Node.js with Express.js" for the backend. The application allows users to sign in, view candidates, and vote securely.
+
+## Features
+### Frontend (React Native)
+- "Authentication": Login and Sign-in screens.
+- "User Profile": Manage user details.
+- "Voting System": View candidate details and cast votes.
+- "Navigation": Screens include:
+  - AppSettings.js
+  - Bio.js
+  - CandidateScreen.js
+  - LoginScreen.js
+  - MainScreen.js
+  - SigninScreen.js
+  - UserProfile.js
+- "Reusable Components": Header, Footer, and Default Header.
+
+### Backend (Node.js + Express.js)
+- "User Authentication": JWT-based authentication.
+- "Voting Logic": Securely cast and store votes.
+- "Database": MongoDB (if applicable) for storing user and voting data.
+- "API Endpoints":
+  - `/auth/login` - User authentication.
+  - `/auth/signup` - User registration.
+  - `/candidates` - Fetch candidate details.
+  - `/vote` - Cast a vote.
+
+## Installation
+### Frontend (React Native)
+1. Install dependencies:
+  
+   npm install
+
+2. Start the app:
+  
+   npm start
+   
+
+### Backend (Node.js + Express.js)
+1. Navigate to the backend directory:
+
+   cd backend
+ 
+2. Install dependencies:
+ 
+   npm install
+  
+3. Start the server:
+  
+   node server.js
+ 
+
+## Technologies Used
+- "Frontend": React Native, JavaScript
+- "Backend": Node.js, Express.js, MongoDB (cloud service)
+
+
+## Folder Structure
+```
+Voting-App
+│── .expo
+│── AppScreens
+│   ├── AppSettings.js
+│   ├── Bio.js
+│   ├── CandidateScreen.js
+│   ├── LoginScreen.js
+│   ├── MainScreen.js
+│   ├── SigninScreen.js
+│   ├── UserProfile.js
+│── assets
+│── node_modules
+│── ReuseableComponents
+│   ├── DefaultHeader.js
+│   ├── Footer.js
+│   ├── Header.js
+│── .gitignore
+│── App.js
+│── app.json
+│── index.js
+│── package-lock.json
+│── package.json
+│── text.txt
+│── backend/
+│   ├── server.js
+│   ├── routes/
+│   ├── models/
+│   ├── controllers/
+│   ├── middleware/
+```
+
+## Contributors
+- [Nida Safdar]
+
+
+

@@ -1,0 +1,24 @@
+we have routes 
+for user or voter 
+1. only one admin can create account
+2. voter can create account and have token  name , email , phone , password , isvotes ...
+3. user can login using CNIC and password
+4. user can get his profile any thing with get request 
+5. user can chnage password after getting hi profile record
+
+
+secound route is for candidate 
+1. thei ris only one admin and admin can create candidate 
+2.admin can update candidate data
+3.admin can delete candidate data 
+4.admin can get vote from voter and manage their record 
+5.admin can check vote count
+6.admin can check any candidate data at any time
+
+
+// main screen have logo , election name and after it welcome text and  link of upcomming events. 
+// button : cast to vote , status: not votes , 
+// some text about candidte , button: list of candidates , progress sections 
+
+// botton nav contain:  Home , vote , candidate , help , profile 
+// start from creating : reusable header component which contain of logo , election name , User profile
